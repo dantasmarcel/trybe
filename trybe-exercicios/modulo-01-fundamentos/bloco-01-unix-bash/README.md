@@ -1,6 +1,6 @@
 # Bloco 01
 
-##### :white_check_mark: Unix & Bash
+##### ![progress](https://progress-bar.dev/100/ "progresso") Unix & Bash
 
-- :white_check_mark: 1-3: _Unix & Bash- Part 1_
-- :white_check_mark: 1-4: _Unix & Bash- Part 2_
+- ![progress](https://progress-bar.dev/100/ "progresso") _Dia 03_
+- ![progress](https://progress-bar.dev/100/ "progresso") _Dia 04_
