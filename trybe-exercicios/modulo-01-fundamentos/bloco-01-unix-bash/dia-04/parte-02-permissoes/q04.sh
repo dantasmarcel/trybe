@@ -1,0 +1,1 @@
+chmod 444 bunch_of_things.txt

@@ -1,0 +1,5 @@
+-rw-rw-r-- 1 marcel marcel 2361 jan 23 13:48 bunch_of_things.txt
+-rw-rw-r-- 1 marcel marcel 1842 jan 23 13:32 countries.txt
+-rw-rw-r-- 1 marcel marcel  518 jan 23 13:29 phrases2.txt
+-rw-rw-r-- 1 marcel marcel   50 jan 21 19:10 skills2.txt
+-rw-rw-r-- 1 marcel marcel   19 jan 23 12:39 top_skills.txt

@@ -1,0 +1,1 @@
+cd ~/trybe/Aula_1.3/unix_tests/

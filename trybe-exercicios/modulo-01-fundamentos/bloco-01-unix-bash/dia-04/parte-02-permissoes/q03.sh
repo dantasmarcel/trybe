@@ -1,0 +1,1 @@
+chmod 666 bunch_of _things.txt
