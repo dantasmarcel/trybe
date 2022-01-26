@@ -1,0 +1,1 @@
+grep -icv 'br' phrases2.txt
