@@ -7,9 +7,9 @@
 
 ##### ![progress](https://progress-bar.dev/100/ "progresso") Bloco 02: Git, GitHub e Internet
 
-##### ![progress](https://progress-bar.dev/30/ "progresso") Bloco 03: Introdução à HTML e CSS
+##### ![progress](https://progress-bar.dev/100/ "progresso") Bloco 03: Introdução à HTML e CSS
 
-##### ![progress](https://progress-bar.dev/0/ "progresso") Bloco 04: Introdução à JavaScript e Lógica de Programação
+##### ![progress](https://progress-bar.dev/50/ "progresso") Bloco 04: Introdução à JavaScript e Lógica de Programação
 
 ##### ![progress](https://progress-bar.dev/0/ "progresso") Bloco 05: JavaScript: DOM, Eventos e Web Storage
 
