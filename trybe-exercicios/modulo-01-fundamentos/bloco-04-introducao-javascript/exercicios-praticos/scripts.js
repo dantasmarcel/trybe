@@ -110,3 +110,40 @@ if (h.toLowerCase() == "torre") {
 // Se a peça passada for inválida, o programa deve retornar uma mensagem de erro.
 else
     console.log("Erro");
+
+
+//--------------------------------------------------------------------------------------------------------------------
+console.log(d);
+// 07. Escreva um programa que converte uma nota dada em porcentagem (de 0 a 100) em conceitos de A a F. Siga essas regras:
+// Porcentagem >= 90 -> A
+// Porcentagem >= 80 -> B
+// Porcentagem >= 70 -> C
+// Porcentagem >= 60 -> D
+// Porcentagem >= 50 -> E
+// Porcentagem < 50 -> F
+
+const i = 102;
+
+if (i >= 90 && i <= 100) {
+    console.log("A");
+}
+if (i >= 80 && i < 90) {
+    console.log("B");
+}
+if (i >= 70 && i < 80) {
+    console.log("C");
+}
+if (i >= 60 && i < 70) {
+    console.log("D");
+}
+if (i >= 50 && i < 60) {
+    console.log("E");
+}
+if (i < 50 && i > 0) {
+    console.log("F");
+}
+
+// O programa deve retornar uma mensagem de erro e encerrar se a nota passada for menor que 0 ou maior que 100.
+
+if (i < 0 || i > 100)
+    console.log("Erro");
