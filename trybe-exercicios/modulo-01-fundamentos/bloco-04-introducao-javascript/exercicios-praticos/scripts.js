@@ -122,7 +122,7 @@ console.log(d);
 // Porcentagem >= 50 -> E
 // Porcentagem < 50 -> F
 
-const i = 102;
+const i = 101;
 
 if (i >= 90 && i <= 100) {
     console.log("A");
@@ -154,6 +154,18 @@ console.log(d);
 // Bonus: use somente um if .
 
 if ((a % 2 == 0) || (b % 2 == 0) || (i % 2 == 0)) {
+    console.log(true);
+}
+
+else
+    console.log(false);
+
+//--------------------------------------------------------------------------------------------------------------------
+console.log(d);
+// 09. Escreva um programa que defina três números em constantes e retorne true se pelo menos uma das três for ímpar.Caso contrário, ele retorna false.
+//Bonus: use somente um if .
+
+if ((a % 2 == 1) || (b % 2 == 1) || (i % 2 == 1)) {
     console.log(true);
 }
 
