@@ -147,3 +147,15 @@ if (i < 50 && i > 0) {
 
 if (i < 0 || i > 100)
     console.log("Erro");
+
+//--------------------------------------------------------------------------------------------------------------------
+console.log(d);
+// 08. Escreva um programa que defina três números em constantes e retorne true se pelo menos uma das três for par. Caso contrário, ele retorna false .
+// Bonus: use somente um if .
+
+if ((a % 2 == 0) || (b % 2 == 0) || (i % 2 == 0)) {
+    console.log(true);
+}
+
+else
+    console.log(false);
