@@ -7,9 +7,9 @@
 // 01. Faça cinco programas, um para cada operação aritmética básica. Seu programa deve ter duas constantes, a e b , definidas no começo com os valores que serão operados. Faça programas para:
 
 // Adição (a + b)
-const a = 3;
-const b = 2;
-const c = 4;
+const a = 80;
+const b = 60;
+const c = 40;
 const d = "-------";
 
 const soma = a + b;
@@ -68,4 +68,22 @@ else if (a < 0) {
 }
 else if (a == 0) {
     console.log("zero");
+}
+
+//--------------------------------------------------------------------------------------------------------------------
+console.log(d);
+// 05. Faça um programa que defina três constantes com os valores dos três ângulos internos de um triângulo.Retorne true se os ângulos representarem os ângulos de um triângulo e false, caso contrário.Se algum ângulo for inválido o programa deve retornar uma mensagem de erro.
+
+// Para os ângulos serem de um triângulo válido, a soma dos três devem ser 180 graus.
+// Um ângulo será considerado inválido se não tiver um valor positivo.
+
+if (a + b + e == 180) {
+    console.log(true);
+
+}
+else
+    console.log("Não é um triângulo");
+
+if ((a < 0) || (b < 0) || (e < 0)) {
+    console.log(false);
 }
