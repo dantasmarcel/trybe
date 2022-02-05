@@ -9,6 +9,8 @@
 // Adição (a + b)
 const a = 3;
 const b = 2;
+const c = 4;
+const d = "-------";
 
 const soma = a + b;
 console.log(soma);
@@ -28,3 +30,14 @@ console.log(div);
 // Módulo (a % b)
 const mod = a % b;
 console.log(mod);
+
+//--------------------------------------------------------------------------------------------------------------------
+console.log(d);
+// 02. Faça um programa que retorne o maior de dois números. Defina no começo do programa duas constantes com os valores que serão comparados.
+
+if (a > b) {
+    console.log(a);
+}
+if (b > a) {
+    console.log(b);
+}
