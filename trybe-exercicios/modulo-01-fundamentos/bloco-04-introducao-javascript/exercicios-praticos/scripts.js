@@ -41,3 +41,18 @@ if (a > b) {
 if (b > a) {
     console.log(b);
 }
+
+//--------------------------------------------------------------------------------------------------------------------
+console.log(d);
+// 03. Faça um programa que retorne o maior de três números. Defina no começo do programa três constantes com os valores que serão comparados.
+
+if (a > b && a > c) {
+    console.log(a);
+}
+if (b > a && b > c) {
+    console.log(b);
+}
+if (c > a && c > b) {
+    console.log(c);
+}
+
