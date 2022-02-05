@@ -10,7 +10,7 @@
 const a = 80;
 const b = 60;
 const c = 40;
-const d = "-------";
+const d = "---------------------";
 
 const soma = a + b;
 console.log(soma);
@@ -87,3 +87,26 @@ else
 if ((a < 0) || (b < 0) || (e < 0)) {
     console.log(false);
 }
+
+//--------------------------------------------------------------------------------------------------------------------
+console.log(d);
+// 06. Escreva um programa que receba o nome de uma peça de xadrez e retorne os movimentos que ela faz.
+const f = "BISPO";
+const g = "Cavalo";
+const h = "Torres";
+
+// Como desafio, faça o programa funcionar tanto se receber o nome de uma peça com letras maiúsculas quanto com letras minúsculas, sem aumentar a quantidade de condicionais.
+
+if (f.toLowerCase() == "bispo") {
+    console.log("bispo -> diagonais");
+}
+if (g.toLowerCase() == "cavalo") {
+    console.log("cavalo -> três casas para frente e uma casa para o lado");
+}
+if (h.toLowerCase() == "torre") {
+    console.log("torre -> horizontais e verticais");
+}
+
+// Se a peça passada for inválida, o programa deve retornar uma mensagem de erro.
+else
+    console.log("Erro");
