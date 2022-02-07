@@ -6,21 +6,21 @@
 
 // 01. Nesse primeiro exercício, percorra o array imprimindo todos os valores nele contidos com a função console.log() ;
 
-// let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
 
-// for (const number of numbers) {
-//     console.log(number);
-// }
+for (const number of numbers) {
+    console.log(number);
+}
 
-// // 02. Para o segundo exercício, some todos os valores contidos no array e imprima o resultado;
+// 02. Para o segundo exercício, some todos os valores contidos no array e imprima o resultado;
 
-// let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
-// let soma = 0;
+let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+let soma = 0;
 
-// for (let i = 0; i < numbers.length; i++) {
-//     soma += numbers[i];
-// }
-// console.log(soma);
+for (let i = 0; i < numbers.length; i++) {
+    soma += numbers[i];
+}
+console.log(soma);
 
 // 03. Para o terceiro exercício, calcule e imprima a média aritmética dos valores contidos no array;
 
@@ -42,3 +42,22 @@ if (media > 20) {
 else
     console.log('valor menor ou igual a 20');
 
+// 05. Utilizando for , descubra qual o maior valor contido no array e imprima-o;
+
+let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+
+// versão didática
+
+let maior = 0;
+for (let i = 0; i < numbers.length; i++) {
+    if (numbers[i] > maior) {
+        maior = numbers[i];
+    }
+}
+console.log(maior);
+// // versão simplificada
+let maior = numbers.reduce(function (a, b) {
+    return Math.max(a, b);
+
+});
+console.log(maior);
