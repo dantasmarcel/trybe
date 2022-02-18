@@ -5,3 +5,9 @@ paragraph.style.color = "red";
 
 const title = document.getElementById("page-title");
 title.innerHTML = 'Velozes e Furiosos';
+
+// 02. Agora recupere o segundo parágrafo e use sua criatividade para alterá-lo.
+
+const secondParagraph = document.getElementById("second-paragraph");
+
+secondParagraph.style.backgroundColor = 'yellow';
