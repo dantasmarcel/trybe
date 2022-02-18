@@ -11,3 +11,8 @@ title.innerHTML = 'Velozes e Furiosos';
 const secondParagraph = document.getElementById("second-paragraph");
 
 secondParagraph.style.backgroundColor = 'yellow';
+
+// 03. Por fim, recupere o subtítulo e altere-o também.
+
+const subtitle = document.getElementById("subtitle");
+subtitle.style.textAlign = "center";
