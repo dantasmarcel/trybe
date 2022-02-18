@@ -1,4 +1,5 @@
 /* 01. Adicione uma classe igual para os dois parágrafos. */
 .novaP {
-    text-align: center;
+    background-color: blue;
+    text-align: right;
 }

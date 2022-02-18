@@ -20,3 +20,19 @@ subtitle.style.textAlign = "center";
 // ---------------------------------------------------
 // 01. Adicione uma classe igual para os dois parágrafos.
 
+// 02. Recupere os seus parágrafos via código JavaScript , usando a função getElementsByClassName ;
+
+const newP = document.getElementsByClassName("novaP");
+
+for (i = 0; i < newP.length; i += 1) {
+    newP[i].style.textAlign = "center";
+    ;
+}
+
+// 03. Altere algum estilo do primeiro deles.
+
+newP[0].style.color = "white";
+
+// 04. Recupere o subtítulo e altere a cor dele usando a função getElementsByTagName .
+
+document.getElementsByTagName("h4")[0].style.color = "red";
