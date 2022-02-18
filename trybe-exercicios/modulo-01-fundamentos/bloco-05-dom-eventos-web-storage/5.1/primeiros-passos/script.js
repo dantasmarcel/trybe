@@ -16,3 +16,7 @@ secondParagraph.style.backgroundColor = 'yellow';
 
 const subtitle = document.getElementById("subtitle");
 subtitle.style.textAlign = "center";
+
+// ---------------------------------------------------
+// 01. Adicione uma classe igual para os dois parágrafos.
+
