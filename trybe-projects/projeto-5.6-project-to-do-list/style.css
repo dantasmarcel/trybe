@@ -1,0 +1,39 @@
+body {
+  background-color: gray;
+  text-align: center;
+}
+
+.container {
+  border-radius: 10px;
+  width: 700px;
+  height: 400px;
+  margin: auto;
+  background-color: white;
+}
+
+header {
+  font-size: 15px;
+  margin-top: 40px;
+}
+
+#funcionamento {
+  font-style: italic;
+}
+
+div {
+  display: inline-block;
+}
+
+#criar-tarefa {
+  background-color: blue;
+  color: white;
+  border-radius: 10%;
+}
+
+.selected {
+  background-color: gray;
+}
+
+.completed {
+  text-decoration: line-through solid black;
+}
